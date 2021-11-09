@@ -13,7 +13,7 @@ beforeAll(async () => {
 })
 
 describe('Alibaba Search', () => {
-  test('has search input', async () => {
+  test.skip('has search input', async () => {
     await page.setViewport({ width: 1280, height: 800 })
     await page.goto('https://www.alibaba.com', { waitUntil: 'networkidle0' })
     const searchInput = await page.$('input.ui-searchbar-keyword')
