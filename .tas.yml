@@ -1,7 +1,7 @@
 ---
 framework: "jest"
 blocklist:
-  - "./jest-tests/amazon.spec.js##Amazon Homepage"
+  - "jest-tests/amazon.spec.js##Amazon Homepage"
 postMerge:
   pattern:
     - "./jest-tests/*.js"
