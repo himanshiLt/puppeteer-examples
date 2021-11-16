@@ -1,7 +1,7 @@
 ---
 framework: "jest"
 blocklist:
-  - "jest-tests/amazon.spec.js##Amazon Homepage"
+  - "jest-tests/alibaba.spec.js##Alibaba Search"
 postMerge:
   pattern:
     - "./jest-tests/*.js"
@@ -11,6 +11,5 @@ preMerge:
 preRun:
   - npm i
 postRun:
-  - node --version
   - node --version
 version: 2.0
