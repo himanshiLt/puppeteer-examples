@@ -1,6 +1,6 @@
 ---
 framework: "jest"
-blacklist:
+blocklist:
   - "jest-tests/alibaba.spec.js##Alibaba Search"
 postMerge:
   pattern:
